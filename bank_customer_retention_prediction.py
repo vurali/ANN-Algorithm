@@ -96,35 +96,6 @@ ann.fit(X_train, y_train, batch_size = 32, epochs = 100)
 
 ### Predicting the result of a single observation
 
-**Homework**
-
-Use our ANN model to predict if the customer with the following informations will leave the bank:
-
-Geography: France
-
-Credit Score: 600
-
-Gender: Male
-
-Age: 40 years old
-
-Tenure: 3 years
-
-Balance: \$ 60000
-
-Number of Products: 2
-
-Does this customer have a credit card ? Yes
-
-Is this customer an Active Member: Yes
-
-Estimated Salary: \$ 50000
-
-So, should we say goodbye to that customer ?
-
-**Solution**
-"""
-
 test = np.array([[1.0, 0.0, 0.0, 600, 1, 40, 3, 60000, 2, 1, 1, 50000]])
 test = sc.transform(test)
 
