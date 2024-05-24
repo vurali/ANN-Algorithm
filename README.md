@@ -9,6 +9,7 @@ This project leverages an Artificial Neural Network (ANN) to predict whether a c
 - [Project Description](#project-description)
 - [Installation](#installation)
 - [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
 - [Data Preprocessing](#data-preprocessing)
 - [Results](#results)
 - [Contact](#contact)
@@ -46,6 +47,15 @@ The dataset used in this project is a synthetic dataset representing bank custom
 - Exited: Whether the customer has exited the bank (target variable, 1=Yes, 0=No)
 
 
+## Model Architecture
+
+The ANN model consists of:
+
+- An input layer with 11 neurons (for 11 features)
+- Two hidden layers with 6 neurons each and ReLU activation
+- An output layer with 1 neuron and sigmoid activation
+
+
 
 ## Data Preprocessing
 
@@ -67,6 +77,7 @@ The model achieved the following performance metrics on the test set:
 
 
 ## Contact
+Project Link: https://github.com/vurali/Bank-Customer-Retention-Prediction-using-ANN.git
 For any inquiries or feedback, please contact:
 
 - Name: Murali Krishna
