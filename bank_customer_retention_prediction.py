@@ -71,7 +71,7 @@ ann = tf.keras.models.Sequential()
 
 """### Adding the input layer and the first hidden layer"""
 
-ann.add(tf.keras.layers.Dense(units = 6, activation = 'relu'))
+ann.add(tf.keras.layers.Dense(units = 11, activation = 'relu'))
 
 """### Adding the second hidden layer"""
 
