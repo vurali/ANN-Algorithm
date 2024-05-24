@@ -51,7 +51,6 @@ The dataset used in this project is a synthetic dataset representing bank custom
 
 Data preprocessing steps are crucial for preparing the data for the model. The steps include:
 
-- Handling missing values
 - Encoding categorical variables
   - One-hot encoding for categorical features
   - Label encoding for binary features
