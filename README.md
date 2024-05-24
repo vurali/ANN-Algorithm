@@ -63,7 +63,7 @@ The dataset used in this project is a synthetic dataset representing bank custom
 The ANN model consists of:
 
 - An input layer with 11 neurons (for 11 features)
-- Two hidden layers with 6 neurons each and ReLU activation
+- One hidden layers with 6 neurons each and ReLU activation
 - An output layer with 1 neuron and sigmoid activation
 
 
