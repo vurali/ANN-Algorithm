@@ -32,19 +32,30 @@ Follow these steps to set up the project locally:
 
 The dataset used in this project is a synthetic dataset representing bank customers. Below are the details of the dataset features:
 
-- CustomerId: Unique identifier for each customer
-- Surname: Customer's surname
-- CreditScore: Credit score of the customer
-- Geography: Customer's location (categorical feature with values like 'France', 'Spain', 'Germany')
-- Gender: Gender of the customer (categorical feature with values 'Male' and 'Female')
-- Age: Age of the customer
-- Tenure: Number of years the customer has been with the bank
-- Balance: Account balance
-- NumOfProducts: Number of bank products the customer is using
-- HasCrCard: Whether the customer has a credit card (1=Yes, 0=No)
-- IsActiveMember: Whether the customer is an active member (1=Yes, 0=No)
-- EstimatedSalary: Estimated annual salary of the customer
-- Exited: Whether the customer has exited the bank (target variable, 1=Yes, 0=No)
+| Feature         | Description                                             |
+|-----------------|---------------------------------------------------------|
+| CustomerId      | Unique identifier for each customer                     |
+| Surname         | Customer's surname                                      |
+| CreditScore     | Credit score of the customer                            |
+| Geography       | Customer's location (categorical feature with values like 'France', 'Spain', 'Germany') |
+| Gender          | Gender of the customer (categorical feature with values 'Male' and 'Female') |
+| Age             | Age of the customer                                     |
+| Tenure          | Number of years the customer has been with the bank     |
+| Balance         | Account balance                                         |
+| NumOfProducts   | Number of bank products the customer is using           |
+| HasCrCard       | Whether the customer has a credit card (1=Yes, 0=No)    |
+| IsActiveMember  | Whether the customer is an active member (1=Yes, 0=No)  |
+| EstimatedSalary | Estimated annual salary of the customer                 |
+| Exited          | Whether the customer has exited the bank (target variable, 1=Yes, 0=No) |
+
+### Example Data
+
+| CustomerId | Surname   | CreditScore | Geography | Gender | Age | Tenure | Balance   | NumOfProducts | HasCrCard | IsActiveMember | EstimatedSalary | Exited |
+|------------|-----------|-------------|-----------|--------|-----|--------|-----------|---------------|-----------|----------------|-----------------|--------|
+| 15634602   | Hargrave  | 619         | France    | Female | 42  | 2      | 0.00      | 1             | 1         | 1              | 101348.88       | 1      |
+| 15647311   | Hill      | 608         | Spain     | Female | 41  | 1      | 83807.86  | 1             | 0         | 1              | 112542.58       | 0      |
+| 15619304   | Onio      | 502         | France    | Female | 42  | 8      | 159660.80 | 3             | 1         | 0              | 113931.57       | 1      |
+
 
 
 ## Model Architecture
